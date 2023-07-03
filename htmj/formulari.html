@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+</head>
+<body>
+
+  <h1>Formulario de ejemplo</h1>
+
+  <form action="/procesar-formulario" method="post">
+    <fieldset>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea name="mensaje" rows="4" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+    </fieldset>
+  </form>
+
+  <br>
+  <br>
+  <label for="color">Elije un color</label>
+  <br>
+  <br>
+  <select name="color" id="color">
+    <option value="Rojo"></option>
+    <option value="Verde"></option>
+    <option value="Azul"></option>
+  </select>
+
+  <br>
+  <br>
+
+  <input type="checkbox" name="color" id="red" value="red">
+  <label for="red">Rojo</label>
+  <br>
+  <input type="checkbox" name="color" id="green" value="green">
+  <label for="green">Verde</label>
+  <br>
+  <input type="checkbox" name="color" id="blue" value="blue">
+  <label for="blue">Azul</label>
+  <br>
+  <br>
+  <label for="color">Escribe un comentario</label>
+  <br>
+  <br>
+  <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+  <br>
+  <br>
+  <label for="color">Escribe una contraseña</label>
+  <input type="password id=pass">
+  <br>
+  <br>
+  <input type="file" name="file id="">
+  <input type="date" name="date" id="">
+  <br>
+  <br>
+  <button type="submit">Enviar</button>
+  <button type="reset">Resetear</button>
+</from>
+
+</body>
+</html>
